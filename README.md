@@ -1,24 +1,23 @@
-# Mini-LLM-Model
-# Mini GPT (Transformer from Scratch)
+# Mini LLM (Transformer from Scratch)
 
-I built a small GPT-style language model using PyTorch.
+A small GPT-style language model built using PyTorch.
 
 ## Features
-- Character-level tokenization
-- Transformer blocks
+- Character/BPE tokenization
 - RMSNorm
-- RoPE (rotary embeddings)
+- Rotary Positional Embeddings (RoPE)
+- Grouped Query Attention (GQA)
 - SwiGLU feedforward
-- Grouped Query Attention
 - Autoregressive text generation
 
 ## Training
-Trained on Tiny Shakespeare dataset.
+- Dataset: Tiny Shakespeare
+- Optimizer: AdamW
+- Loss: CrossEntropy
+- Hardware: Google Colab GPU
 
 ## Result
-The model generates Shakespeare-style text.
+Model generates Shakespeare-style text after training.
 
-## Tech
-- PyTorch
-- Python
-- Google Colab
+## Tech Stack
+PyTorch, Python, Colab
