@@ -4,7 +4,7 @@
 I built a small GPT-style language model using PyTorch.
 
 ## Features
-- Character/BPE tokenization
+- Character-level tokenization
 - Transformer blocks
 - RMSNorm
 - RoPE (rotary embeddings)
