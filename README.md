@@ -3,7 +3,7 @@
 A small GPT-style language model built using PyTorch.
 
 ## Features
-- Character/BPE tokenization
+- Character-level tokenization
 - RMSNorm
 - Rotary Positional Embeddings (RoPE)
 - Grouped Query Attention (GQA)
